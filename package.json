@@ -1,11 +1,13 @@
 {
   "name": "malcolmlaing.com",
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Personal website made with Gatsbyjs",
   "version": "0.0.1",
   "author": "Malcolm Laing <malcolmclaing@gmail.com>",
   "dependencies": {
+    "@emotion/core": "^10.0.6",
     "gatsby": "2.0.98",
     "gatsby-image": "2.0.28",
+    "gatsby-plugin-emotion": "^4.0.1",
     "gatsby-plugin-manifest": "2.0.13",
     "gatsby-plugin-offline": "2.0.21",
     "gatsby-plugin-react-helmet": "3.0.5",
@@ -26,7 +28,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "lint": "eslint \"./**/*.js\"",
+    "lint": "eslint ./src",
     "start": "npm run develop",
     "format:md": "prettier --write --parser markdown '**/*.md'",
     "format:js": "prettier --write \"src/**/*.js\"",
