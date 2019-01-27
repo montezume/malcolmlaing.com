@@ -1,9 +1,11 @@
 import { css } from '@emotion/core';
+import * as customProperties from '../../theme/custom-properties';
 
 export const getGlobalStyles = () => css`
   html {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+    color: ${customProperties.colorForText};
   }
   html,
   body {

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Malcolm Laing | Frontend Engineer in Berlin`,
+    title: `Malcolm Laing`,
     description: `TODO`,
     author: `@montezume`,
   },
@@ -33,6 +33,8 @@ module.exports = {
         // Accepts all options defined by `babel-plugin-emotion` plugin.
       },
     },
+    'gatsby-plugin-svgr',
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
