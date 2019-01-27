@@ -14,5 +14,6 @@ cache:
 script:
   - set -e
   - yarn lint
+  - yarn test
   - yarn build
   - set +e
