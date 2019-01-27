@@ -13,7 +13,6 @@ cache:
 
 script:
   - set -e
-  - yarn lint
-  - yarn test
+  - yarn run jest --projects jest.config.js jest.eslint.config.js --maxWorkers=4 --reporters jest-silent-reporter
   - yarn build
   - set +e
